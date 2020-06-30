@@ -502,7 +502,7 @@
               "publisher": "[variables('fwPublisher')]",
               "offer": "[variables('fwOffer')]",
               "sku": "[parameters('fwSku')]",
-              "version": "latest"
+              "version": "8.1.9"
           },
           "osDisk": {
             "name": "[concat(variables('fwVmName'),'-osDisk')]",
